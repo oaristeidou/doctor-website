@@ -1,5 +1,5 @@
 <mat-toolbar color="primary" class="header-toolbar">
-    <button mat-icon-button class="menu-button" aria-label="Menu icon">
+    <button mat-icon-button class="menu-button" aria-label="Menu icon" (click)="menuToggled.emit()">
         <mat-icon>menu</mat-icon>
     </button>
     <span class="logo" routerLink="/">{{ 'HEADER.COMPANY_NAME' | translate }}</span>

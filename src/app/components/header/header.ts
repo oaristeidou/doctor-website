@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -14,6 +14,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrl: './header.css'
 })
 export class HeaderComponent {
+  @Output() menuToggled = new EventEmitter<void>();
   currentLang: string = 'de';
 
   constructor(private translate: TranslateService) {

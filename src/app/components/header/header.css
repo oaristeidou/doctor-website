@@ -14,6 +14,9 @@
     font-size: 1.2rem;
     cursor: pointer;
     margin-left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .nav-links {
@@ -32,5 +35,9 @@
 
     .menu-button {
         display: block;
+    }
+
+    .logo {
+        font-size: 1rem;
     }
 }
