@@ -1,0 +1,24 @@
+<mat-toolbar color="primary" class="header-toolbar">
+    <button mat-icon-button class="menu-button" aria-label="Menu icon">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span class="logo" routerLink="/">{{ 'HEADER.COMPANY_NAME' | translate }}</span>
+    <span class="spacer"></span>
+    <div class="nav-links">
+        <a mat-button routerLink="/">{{ 'HEADER.HOME' | translate }}</a>
+        <a mat-button routerLink="/services">{{ 'HEADER.SERVICES' | translate }}</a>
+        <a mat-button routerLink="/team">{{ 'HEADER.TEAM' | translate }}</a>
+        <a mat-button routerLink="/contact">{{ 'HEADER.CONTACT' | translate }}</a>
+    </div>
+
+    <button mat-button [matMenuTriggerFor]="langMenu" aria-label="Change Language">
+        <mat-icon>language</mat-icon>
+        {{ currentLang.toUpperCase() }}
+        <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <mat-menu #langMenu="matMenu">
+        <button mat-menu-item (click)="switchLanguage('de')">Deutsch</button>
+        <button mat-menu-item (click)="switchLanguage('en')">English</button>
+        <button mat-menu-item (click)="switchLanguage('el')">Ελληνικά</button>
+    </mat-menu>
+</mat-toolbar>

@@ -1,0 +1,97 @@
+{
+    "HEADER": {
+        "COMPANY_NAME": "Georgia Gkritzepi | Speech & Occupational Therapy",
+        "HOME": "Home",
+        "SERVICES": "Services",
+        "TEAM": "Team",
+        "CONTACT": "Contact"
+    },
+    "HOME": {
+        "HERO_TITLE": "Your Path to Better Quality of Life",
+        "HERO_SUBTITLE": "Practice for Speech and Occupational Therapy",
+        "BTN_CONTACT": "Book Appointment",
+        "BTN_SERVICES": "Our Services",
+        "INTRO_TITLE": "Welcome",
+        "INTRO_TEXT": "We welcome you to our interdisciplinary practice. Our experienced team of speech and occupational therapists is here to support you with individual therapy concepts.",
+        "CARD_LOGO_TITLE": "Speech Therapy",
+        "CARD_LOGO_TEXT": "Diagnostics and therapy of speech, voice, and swallowing disorders for children and adults.",
+        "CARD_ERGO_TITLE": "Occupational Therapy",
+        "CARD_ERGO_TEXT": "Holistic promotion of everyday skills in case of motor, cognitive, or psychological limitations.",
+        "BTN_MORE": "Learn More"
+    },
+    "SERVICES": {
+        "LOGO_TITLE": "Speech Therapy",
+        "LOGO_INTRO": "Diagnostics, counseling, and therapy for speech, voice, and swallowing disorders",
+        "CHILDREN": "Children & Adolescents",
+        "ADULTS": "Adults",
+        "ERGO_TITLE": "Occupational Therapy",
+        "ERGO_INTRO": "Support for more independence in everyday life",
+        "FIELDS": "Treatment Fields",
+        "FIELDS_INTRO": "We treat patients of all ages in the areas of:",
+        "LOGO_LIST": {
+            "SES": "Speech Development Disorders (SES)",
+            "AKTIKULATION": "Articulation Disorders (Dyslalia)",
+            "MYO": "Myofunctional Disorders",
+            "HEARING": "Hearing Disorders",
+            "STUTTERING": "Stuttering / Cluttering",
+            "APHASIA": "Aphasia (after stroke)",
+            "DYSARTHRIA": "Dysarthria",
+            "APRAXIA": "Apraxia of Speech",
+            "DYSPHAGIA": "Swallowing Disorders (Dysphagia)",
+            "DYSPHONIA": "Voice Disorders (Dysphonia)"
+        },
+        "ERGO_LIST": {
+            "PEDIATRICS": "Pediatrics (Developmental Delays, Concentration Disorders)",
+            "NEUROLOGY": "Neurology (Stroke, MS, Parkinson's)",
+            "ORTHOPEDICS": "Orthopedics / Hand Therapy",
+            "GERIATRICS": "Geriatrics (Dementia, Fall Prevention)"
+        }
+    },
+    "TEAM": {
+        "TITLE": "Our Team",
+        "INTRO": "Competence and Heart for Your Health",
+        "MEMBERS": {
+            "MAX": {
+                "NAME": "Georgia Gkritzepi",
+                "SUBTITLE": "Practice Owner & Speech Therapist",
+                "BIO": "Specialized in child speech disorders and voice therapy. State-recognized speech therapist since 2010."
+            },
+            "ERIKA": {
+                "SUBTITLE": "Occupational Therapist",
+                "BIO": "Focus: Neurology and Hand Therapy. Certified Hand Therapist."
+            },
+            "JOHANNES": {
+                "SUBTITLE": "Speech Therapist",
+                "BIO": "Expert in neurological speech disorders (Aphasia) and Dysphagia."
+            }
+        }
+    },
+    "CONTACT": {
+        "TITLE": "Contact",
+        "INTRO": "We are here for you",
+        "ADDRESS": "Address",
+        "PHONE": "Phone",
+        "HOURS": "Opening Hours",
+        "FORM_TITLE": "Write to us",
+        "LBL_NAME": "Name",
+        "LBL_EMAIL": "Email",
+        "LBL_MESSAGE": "Message",
+        "BTN_SEND": "Send",
+        "ERR_REQUIRED": "Please fill out this field",
+        "ERR_EMAIL": "Please enter a valid email",
+        "SUCCESS_MSG": "Thank you for your message! We will get back to you shortly."
+    },
+    "FOOTER": {
+        "COMPANY_NAME": "Georgia Gkritzepi | Speech & Occupational Therapy",
+        "SUBTITLE": "Practice for Speech and Occupational Therapy",
+        "TITLES": {
+            "CONTACT": "Contact",
+            "LINKS": "Links"
+        },
+        "LINKS": {
+            "IMPRINT": "Imprint",
+            "PRIVACY": "Privacy Policy"
+        },
+        "COPYRIGHT": "© 2025 Speech & Occupational Therapy. All rights reserved."
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "HEADER": {
+        "COMPANY_NAME": "Georgia Gkritzepi | Logopädie & Ergotherapie",
+        "HOME": "Startseite",
+        "SERVICES": "Leistungen",
+        "TEAM": "Team",
+        "CONTACT": "Kontakt"
+    },
+    "HOME": {
+        "HERO_TITLE": "Ihr Weg zu mehr Lebensqualität",
+        "HERO_SUBTITLE": "Praxis für Logopädie und Ergotherapie",
+        "BTN_CONTACT": "Termin vereinbaren",
+        "BTN_SERVICES": "Unsere Leistungen",
+        "INTRO_TITLE": "Herzlich Willkommen",
+        "INTRO_TEXT": "Wir begrüßen Sie in unserer interdisziplinären Praxis. Unser erfahrenes Team aus Logopäden und Ergotherapeuten steht Ihnen mit individuellen Therapiekonzepten zur Seite.",
+        "CARD_LOGO_TITLE": "Logopädie",
+        "CARD_LOGO_TEXT": "Diagnostik und Therapie von Sprach-, Sprech-, Stimm- und Schluckstörungen für Kinder und Erwachsene.",
+        "CARD_ERGO_TITLE": "Ergotherapie",
+        "CARD_ERGO_TEXT": "Ganzheitliche Förderung der Handlungsfähigkeit im Alltag bei motorischen, kognitiven oder psychischen Einschränkungen.",
+        "BTN_MORE": "Mehr erfahren"
+    },
+    "SERVICES": {
+        "LOGO_TITLE": "Logopädie",
+        "LOGO_INTRO": "Diagnostik, Beratung und Therapie von Sprach-, Sprech-, Stimm- und Schluckstörungen",
+        "CHILDREN": "Kinder & Jugendliche",
+        "ADULTS": "Erwachsene",
+        "ERGO_TITLE": "Ergotherapie",
+        "ERGO_INTRO": "Unterstützung für mehr Selbstständigkeit im Alltag",
+        "FIELDS": "Behandlungsfelder",
+        "FIELDS_INTRO": "Wir behandeln Patienten jeden Alters in den Bereichen:",
+        "LOGO_LIST": {
+            "SES": "Sprachentwicklungsstörungen (SES)",
+            "AKTIKULATION": "Artikulationsstörungen (Dyslalin)",
+            "MYO": "Myofunktionelle Störungen",
+            "HEARING": "Hörstörungen",
+            "STUTTERING": "Stottern / Poltern",
+            "APHASIA": "Aphasie (nach Schlaganfall)",
+            "DYSARTHRIA": "Dysarthrie",
+            "APRAXIA": "Sprechapraxie",
+            "DYSPHAGIA": "Schluckstörungen (Dysphagie)",
+            "DYSPHONIA": "Stimmstörungen (Dysphonie)"
+        },
+        "ERGO_LIST": {
+            "PEDIATRICS": "Pädiatrie (Entwicklungsverzögerungen, Konzentrationsstörungen)",
+            "NEUROLOGY": "Neurologie (Schlaganfall, MS, Parkinson)",
+            "ORTHOPEDICS": "Orthopädie / Handtherapie",
+            "GERIATRICS": "Geriatrie (Demenz, Sturzprophylaxe)"
+        }
+    },
+    "TEAM": {
+        "TITLE": "Unser Team",
+        "INTRO": "Kompetenz und Herz für Ihre Gesundheit",
+        "MEMBERS": {
+            "MAX": {
+                "NAME": "Georgia Gkritzepi",
+                "SUBTITLE": "Praxisinhaberin & Logopädin",
+                "BIO": "Spezialisiert auf kindliche Sprachstörungen und Stimmtherapie. Staatlich anerkannte Logopädin seit 2010."
+            },
+            "ERIKA": {
+                "SUBTITLE": "Ergotherapeutin",
+                "BIO": "Schwerpunkte: Neurologie und Handtherapie. Zertifizierte Handtherapeutin."
+            },
+            "JOHANNES": {
+                "SUBTITLE": "Logopäde",
+                "BIO": "Experte für neurologische Sprachstörungen (Aphasie) und Dysphagie."
+            }
+        }
+    },
+    "CONTACT": {
+        "TITLE": "Kontakt",
+        "INTRO": "Wir sind für Sie da",
+        "ADDRESS": "Adresse",
+        "PHONE": "Telefon",
+        "HOURS": "Sprechzeiten",
+        "FORM_TITLE": "Schreiben Sie uns",
+        "LBL_NAME": "Name",
+        "LBL_EMAIL": "Email",
+        "LBL_MESSAGE": "Nachricht",
+        "BTN_SEND": "Absenden",
+        "ERR_REQUIRED": "Bitte füllen Sie dieses Feld aus",
+        "ERR_EMAIL": "Bitte geben Sie eine gültige Email ein",
+        "SUCCESS_MSG": "Vielen Dank für Ihre Nachricht! Wir werden uns in Kürze bei Ihnen melden."
+    },
+    "FOOTER": {
+        "COMPANY_NAME": "Georgia Gkritzepi | Logopädie & Ergotherapie",
+        "SUBTITLE": "Praxis für Sprachtherapie und Ergotherapie",
+        "TITLES": {
+            "CONTACT": "Kontakt",
+            "LINKS": "Links"
+        },
+        "LINKS": {
+            "IMPRINT": "Impressum",
+            "PRIVACY": "Datenschutz"
+        },
+        "COPYRIGHT": "© 2025 Logopädie & Ergotherapie. Alle Rechte vorbehalten."
+    }
+}

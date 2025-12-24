@@ -1,0 +1,53 @@
+<div class="hero-section">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>{{ 'HOME.HERO_TITLE' | translate }}</h1>
+            <p class="subtitle">{{ 'HOME.HERO_SUBTITLE' | translate }}</p>
+            <div class="hero-actions">
+                <a mat-raised-button color="primary" routerLink="/contact">{{ 'HOME.BTN_CONTACT' | translate }}</a>
+                <a mat-stroked-button class="secondary-btn" routerLink="/services">{{ 'HOME.BTN_SERVICES' | translate
+                    }}</a>
+            </div>
+        </div>
+        <div class="hero-image-wrapper">
+            <img src="assets/images/happy_therapy_hero.png" alt="Happy Therapy Session" class="hero-image">
+        </div>
+    </div>
+</div>
+
+<div class="section-container">
+    <section class="intro-section">
+        <h2>{{ 'HOME.INTRO_TITLE' | translate }}</h2>
+        <p>{{ 'HOME.INTRO_TEXT' | translate }}</p>
+    </section>
+
+    <section class="services-overview">
+        <mat-card class="service-card">
+            <mat-card-header>
+                <mat-icon mat-card-avatar color="primary">record_voice_over</mat-icon>
+                <mat-card-title>{{ 'HOME.CARD_LOGO_TITLE' | translate }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{ 'HOME.CARD_LOGO_TEXT' | translate }}</p>
+            </mat-card-content>
+            <mat-card-actions>
+                <a mat-button color="primary" routerLink="/services" fragment="logopaedie">{{ 'HOME.BTN_MORE' |
+                    translate }}</a>
+            </mat-card-actions>
+        </mat-card>
+
+        <mat-card class="service-card">
+            <mat-card-header>
+                <mat-icon mat-card-avatar color="primary">accessibility_new</mat-icon>
+                <mat-card-title>{{ 'HOME.CARD_ERGO_TITLE' | translate }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <p>{{ 'HOME.CARD_ERGO_TEXT' | translate }}</p>
+            </mat-card-content>
+            <mat-card-actions>
+                <a mat-button color="primary" routerLink="/services" fragment="ergotherapie">{{ 'HOME.BTN_MORE' |
+                    translate }}</a>
+            </mat-card-actions>
+        </mat-card>
+    </section>
+</div>

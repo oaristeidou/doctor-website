@@ -1,0 +1,136 @@
+.hero-section {
+    background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+    /* Colorful Gradient */
+    padding: 2rem 1rem;
+    margin-bottom: 3rem;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: #fff;
+    /* Ensure text is readable on color */
+    overflow: hidden;
+}
+
+.hero-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    padding: 2rem 0;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #2c3e50;
+    /* Darker text for contrast if gradient is light, or White if dark. Let's try Dark Grey on this light pastel gradient */
+    line-height: 1.2;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #455a64;
+    margin-bottom: 2rem;
+}
+
+.hero-image-wrapper {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transform: rotate(2deg);
+    /* Playful tilt */
+    transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.secondary-btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: #fff;
+    color: var(--mat-sys-primary);
+}
+
+.section-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.intro-section h2 {
+    color: var(--mat-sys-primary);
+    margin-bottom: 1rem;
+}
+
+.intro-section p {
+    line-height: 1.6;
+    color: var(--mat-sys-on-surface);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.services-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.service-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 5px solid transparent;
+}
+
+.service-card:nth-child(1) {
+    border-color: #ff9a9e;
+    /* Pinkish for Logopädie */
+}
+
+.service-card:nth-child(2) {
+    border-color: #84fab0;
+    /* Greenish for Ergotherapie */
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mat-card-content p {
+    margin-top: 1rem;
+    line-height: 1.5;
+    color: var(--mat-sys-on-surface-variant);
+}

@@ -1,0 +1,71 @@
+<div class="page-container">
+    <section id="logopaedie" class="service-section">
+        <div class="section-header">
+            <h1>{{ 'SERVICES.LOGO_TITLE' | translate }}</h1>
+            <p class="intro">{{ 'SERVICES.LOGO_INTRO' | translate }}</p>
+        </div>
+
+        <div class="content-wrapper">
+            <mat-accordion multi>
+                <mat-expansion-panel expanded>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon color="primary">child_care</mat-icon>
+                            <span>{{ 'SERVICES.CHILDREN' | translate }}</span>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-list>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.SES' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.AKTIKULATION' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.MYO' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.HEARING' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.STUTTERING' | translate }}</mat-list-item>
+                    </mat-list>
+                </mat-expansion-panel>
+
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon color="primary">person</mat-icon>
+                            <span>{{ 'SERVICES.ADULTS' | translate }}</span>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <mat-list>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.APHASIA' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.DYSARTHRIA' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.APRAXIA' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.DYSPHAGIA' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.LOGO_LIST.DYSPHONIA' | translate }}</mat-list-item>
+                    </mat-list>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
+    </section>
+
+    <section id="ergotherapie" class="service-section">
+        <div class="section-header">
+            <h1>{{ 'SERVICES.ERGO_TITLE' | translate }}</h1>
+            <p class="intro">{{ 'SERVICES.ERGO_INTRO' | translate }}</p>
+        </div>
+
+        <div class="content-wrapper">
+            <mat-accordion multi>
+                <mat-expansion-panel expanded>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon color="primary">accessibility</mat-icon>
+                            <span>{{ 'SERVICES.FIELDS' | translate }}</span>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <p>{{ 'SERVICES.FIELDS_INTRO' | translate }}</p>
+                    <mat-list>
+                        <mat-list-item>{{ 'SERVICES.ERGO_LIST.PEDIATRICS' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.ERGO_LIST.NEUROLOGY' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.ERGO_LIST.ORTHOPEDICS' | translate }}</mat-list-item>
+                        <mat-list-item>{{ 'SERVICES.ERGO_LIST.GERIATRICS' | translate }}</mat-list-item>
+                    </mat-list>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
+    </section>
+</div>
